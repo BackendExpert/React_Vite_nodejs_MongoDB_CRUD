@@ -17,18 +17,17 @@ return (
                         <th>Name</th>
                         <th>Email</th>
                         <th>Age</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td className="px-8">Jehan</td>
-                        <td>Jhegabn@1</td>
-                        <td>21</td>
-                        <td className="px-12">
-                            <button>Update</button>
-                            <button>Delete</button>
-                        </td>
-                    </tr>
+                    {
+                        allUsers.map((user) => {
+                            <tr>
+                                
+                            </tr>
+                        })
+                    }
                 </tbody>
             </table>
         </div>
