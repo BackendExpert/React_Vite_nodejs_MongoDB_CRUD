@@ -5,7 +5,7 @@ const users = () => {
             <p className="font-semibold text-2xl py-2">Users</p>
             <hr />
 
-            <table className="table-auto">
+            <table className="table-fixed">
                 <thead>
                     <tr>
                         <th>Name</th>
@@ -14,7 +14,15 @@ const users = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr></tr>
+                    <tr>
+                        <td>Jehan</td>
+                        <td>Jhegabn@1</td>
+                        <td>21</td>
+                        <td>
+                            <button>Update</button>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>
