@@ -12,7 +12,7 @@ return (
         <div className="bg-white text-black px-12 py-8 rounded">
             <p className="font-semibold text-2xl py-2">Users</p>
             <hr className="pb-4"/>
-            <Link to="/user/create"><span className="bg-green-600 text-white px-8 py-2 mt-8 rounded">Add User <IonIcon name="person-add"/></span></Link>
+            <Link to="/user/create"><span className="bg-green-600 text-white px-8 py-2 mt-8 rounded">Add User <IonIcon className="px-2 pt-2" name="person-add"/></span></Link>
             <table className="table-auto w-full my-8">
                 <thead>
                     <tr>
@@ -29,7 +29,7 @@ return (
                                 <td>{user.Name}</td>
                                 <td>{user.Email}</td>
                                 <td>{user.Age}</td>
-                                <td><button className="bg-green-500 px-8 py-2 rounded text-white hover:bg-green-600 duration-500">Update</button></td>
+                                <td><button className="bg-green-500 px-8 py-2 rounded text-white hover:bg-green-600 duration-500"><IonIcon name="pencil" /> Update</button></td>
                                 <td><button className="bg-red-500 px-8 py-2 rounded text-white hover:bg-red-600 duration-500">Delete</button></td>
                             </tr>
                         })
