@@ -5,8 +5,6 @@ import CreateUser from './User/CreateUser'
 import UpdateUser from './User/UpdateUser'
 import Users from './User/Users'
 
-
-
 function App() {
   const [count, setCount] = useState(0)
 
