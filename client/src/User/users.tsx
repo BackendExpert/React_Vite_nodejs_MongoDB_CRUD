@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 const users = () => {
-    const [allUsers, setUser] = useState([{
+    const [allusers, setUser] = useState([{
         Name: "Jehan", Email: "jehan@123.com", Age: 20
     }])
     
@@ -22,9 +22,11 @@ return (
                 </thead>
                 <tbody>
                     {
-                        allUsers.map((user) => {
-                            <tr>
-                                
+                        allusers.map((user) => {
+                           return <tr>
+                                <td>{user.Name}</td>
+                                <th>{user.Email}</th>
+                                <th>{user.Age}</th>
                             </tr>
                         })
                     }
