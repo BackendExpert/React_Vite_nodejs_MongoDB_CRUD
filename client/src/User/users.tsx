@@ -1,6 +1,6 @@
 const users = () => {
   return (
-    <div>users</div>
+    <div className="bg-blue-500"></div>
   )
 }
 
