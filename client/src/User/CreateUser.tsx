@@ -5,9 +5,9 @@ import axios from 'axios'
 
 
 const CreateUser = () => {
-  const [name, setName] = useState()
-  const [email, setEmail] = useState()
-  const [age, setAge] = useState()
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [age, setAge] = useState("")
   
   const Submit = (e) => {
     e.preventDefault();
@@ -36,7 +36,7 @@ const CreateUser = () => {
                 <label htmlFor="">Age</label>
                 <input onChange={(e) => setAge(e.target.value)} type="number" placeholder="Enter Age" className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'/>
               </div>
-              <button className="rounded bg-green-700 duration-500 hover:bg-green-800 text-white py-4 px-8 font-semibold text-md">Add User</button>
+              <button type="submit" className="rounded bg-green-700 duration-500 hover:bg-green-800 text-white py-4 px-8 font-semibold text-md">Add User</button>
             </form>
 
         </div>
