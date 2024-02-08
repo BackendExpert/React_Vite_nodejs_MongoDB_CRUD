@@ -12,7 +12,7 @@ return (
         <div className="bg-white text-black px-12 py-8 rounded">
             <p className="font-semibold text-2xl py-2">Users</p>
             <hr className="pb-4"/>
-            <Link to="/user/create"><span className="bg-green-600 text-white px-8 py-2 mt-8">Add User <IonIcon name="person-add"/></span></Link>
+            <Link to="/user/create"><span className="bg-green-600 text-white px-8 py-2 mt-8 rounded">Add User <IonIcon name="person-add"/></span></Link>
             <table className="table-auto w-full my-8">
                 <thead>
                     <tr>
