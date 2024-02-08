@@ -1,5 +1,9 @@
+import { useState } from "react"
+
 const users = () => {
-    
+    const [allUsers, setUser] = useState([{
+        Name: "Jehan", Email: "jehan@123.com", Age: 20
+    }])
     
 return (
     <div className="bg-blue-600 h-screen px-24 py-20">
