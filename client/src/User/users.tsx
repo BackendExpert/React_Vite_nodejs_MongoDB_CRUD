@@ -27,8 +27,8 @@ return (
                                 <td>{user.Name}</td>
                                 <td>{user.Email}</td>
                                 <td>{user.Age}</td>
-                                <td><button className="bg-green-500 px-8 py-0 rounded text-white hover:bg-green-600">Update</button></td>
-                                <td><button>Delete</button></td>
+                                <td><button className="bg-green-500 px-8 py-2 rounded text-white hover:bg-green-600 duration-500">Update</button></td>
+                                <td><button className="bg-red-500 px-8 py-2 rounded text-white hover:bg-red-600 duration-500">Delete</button></td>
                             </tr>
                         })
                     }
