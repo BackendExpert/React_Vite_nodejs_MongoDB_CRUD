@@ -10,6 +10,22 @@ const CreateUser = () => {
             <p className="font-semibold text-2xl py-4">Add New User</p>
             <hr />
 
+            <form>
+              <div className="mb-2">
+                <label htmlFor="">Name</label>
+                <input type="text" name="Enter Name" id="" className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'/>
+              </div>
+              <div className="mb-2">
+                <label htmlFor="">Email</label>
+                <input type="email" name="Enter Name" id="" className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'/>
+              </div>
+              <div className="mb-2">
+                <label htmlFor="">Age</label>
+                <input type="number" name="Enter Name" id="" className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'/>
+              </div>
+              <button className="rounded bg-green-700 duration-500 hover:bg-green-800 text-white py-4 px-8 font-semibold text-md">Add User</button>
+            </form>
+
         </div>
     </div>
   )
