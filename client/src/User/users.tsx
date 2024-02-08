@@ -30,7 +30,10 @@ return (
                                 <td>{user.Email}</td>
                                 <td>{user.Age}</td>
                                 <td>
-                                    <button className="bg-green-500 px-8 py-2 mx-8 rounded text-white hover:bg-green-600 duration-500"><IonIcon name="pencil" /> Update</button>
+                                    <Link to={'/user/update'}>
+                                        <button className="bg-green-500 px-8 py-2 mx-8 rounded text-white hover:bg-green-600 duration-500"><IonIcon name="pencil" /> Update</button>
+                                    </Link>
+                                    
                                     <button className="bg-red-500 px-8 py-2 rounded text-white hover:bg-red-600 duration-500"><IonIcon name="trash-bin" /> Delete</button>
                                 </td>
                             </tr>
